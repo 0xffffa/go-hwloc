@@ -1,5 +1,7 @@
 # go-hwloc
 
+This project is a fork of [c0mm4nd's go-hwloc](https://github.com/c0mm4nd/go-hwloc) with a simple struct allocation fix.
+
 [![Build Status](https://travis-ci.com/c0mm4nd/go-hwloc.svg?branch=master)](https://travis-ci.com/c0mm4nd/go-hwloc)
 [![Go Doc](https://godoc.org/godoc.org/github.com/c0mm4nd/go-hwloc?status.svg)](https://godoc.org/github.com/c0mm4nd/go-hwloc)
 
@@ -25,7 +27,7 @@ sudo ldconfig /usr/local/lib
 ## Usage
 
 ```go
-import hwloc "github.com/c0mm4nd/go-hwloc"
+import hwloc "github.com/0xffffa/go-hwloc"
 ```
 
 ## Extra
